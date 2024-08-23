@@ -1,6 +1,4 @@
-# phonebook.cz-email-recon
-
-# Domain Email Intelligence Tool
+# phonebook.cz Automation for Email Recon
 
 ## Description
 
