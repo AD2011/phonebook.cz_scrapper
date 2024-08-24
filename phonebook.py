@@ -3,7 +3,7 @@ import json
 import argparse
 import os
 
-TOKEN = "60581b26-d181-4384-9698-d2334d1fefa9"  # Hardcode this token from their site after going through the new signup process
+TOKEN = "API_TOKEN_HERE"
 
 def get_token(domain, target):
     url = f"https://2.intelx.io:443/phonebook/search?k={TOKEN}"
