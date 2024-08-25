@@ -1,7 +1,5 @@
 # phonebook.cz Automation for Recon
 
-## Description
-
 `phonebook.py` is a powerful Python script that automates the process of gathering email addresses, subdomains and links associated with specific domains using the Phonebook.cz service. This tool is designed for both single domain queries and bulk domain processing, making it versatile for various email intelligence gathering needs.
 
 ## Usage
@@ -25,10 +23,20 @@
 
 ## Output
 
-The script will display the discovered information in the console and save all results to a single output file. The output file name will reflect the processes selected:
+The script will display the discovered information in the console and save all results to a single output file. The output file name will reflect the domain name or filename and option selected
 
 - For single domain: `{domain}_{process}_output.txt`
 - For multiple domains: `{input_filename}_{process}_output.txt`
 
 Where `{process}` is a combination of "email", "subdomain", and/or "link" based on the options selected.
 
+## Run as a executable
+
+Make a file at `/usr/bin` or any other folder in `$PATH` and make it executable by running `chmod +x <filename>`
+
+```
+#!/bin/sh
+
+exec python3 /<path-to>/phonebook.py "$@"
+
+```
