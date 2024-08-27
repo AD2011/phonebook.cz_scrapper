@@ -18,8 +18,8 @@
 - `-l` or `--links`: Search for links
 
 - You can use multiple options at once. For example:
-- `python3 domain_intel_tool.py -u example.com -e -s -l`
-- `python3 domain_intel_tool.py -f domain_list -e -s -l`
+- `python3 phonebook.py -u example.com -e -s -l`
+- `python3 phonebook.py -f domain_list -e -s -l`
 
 ## Output
 
@@ -30,7 +30,7 @@ The script will display the discovered information in the console and save all r
 
 Where `{process}` is a combination of "email", "subdomain", and/or "link" based on the options selected.
 
-## Run as a executable
+## Run as an executable
 
 Make a file at `/usr/bin` or any other folder in `$PATH` and make it executable by running `chmod +x <filename>`
 
