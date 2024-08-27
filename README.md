@@ -17,7 +17,7 @@
 - `-s` or `--subdomains`: Search for subdomains
 - `-l` or `--links`: Search for links
 
-- You can use multiple options at once. For example:
+You can use multiple options at once. For example:
 - `python3 phonebook.py -u example.com -e -s -l`
 - `python3 phonebook.py -f domain_list -e -s -l`
 
@@ -25,10 +25,10 @@
 
 The script will display the discovered information in the console and save all results to a single output file. The output file name will reflect the domain name or filename and option selected
 
-- For single domain: `{domain}_{process}_output.txt`
-- For multiple domains: `{input_filename}_{process}_output.txt`
+- For single domain: `{domain}_{option}_output.txt`
+- For multiple domains: `{input_filename}_{option}_output.txt`
 
-Where `{process}` is a combination of "email", "subdomain", and/or "link" based on the options selected.
+Where `{option}` is a combination of "email", "subdomain", and/or "link" based on the options selected.
 
 ## Run as an executable
 
