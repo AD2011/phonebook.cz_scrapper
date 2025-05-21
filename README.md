@@ -5,6 +5,8 @@
 ## Usage
 
 - Get your IntelX API_TOKEN from https://intelx.io/account?tab=developer
+- For Free API user, use `phoebook_freeUser.py`
+- For Paid API user, use `phonebook_paidUser.py`
 
 - For a single domain:
 `python3 phonebook.py -u google.com [OPTIONS]`
